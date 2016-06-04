@@ -9,7 +9,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="14.0" layoutY="14.0" text="Check Room Availability">
+      <Label layoutX="14.0" layoutY="14.0" text="Check Room Availability" textFill="#8a1919">
          <font>
             <Font size="18.0" />
          </font>
@@ -28,7 +28,7 @@
             <TextField fx:id="enterEndDateInput" maxWidth="100.0" prefHeight="25.0" prefWidth="100.0" />
          </children>
       </VBox>
-      <Button fx:id="BackButton" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="BackButton" layoutX="525.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Back" />
       <Label fx:id="checkRoomAvailabilityAnswer" layoutX="286.0" layoutY="292.0" text="Label" />
    </children>
 </Pane>
